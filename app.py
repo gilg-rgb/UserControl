@@ -36,6 +36,12 @@ class UserControl(ft.Container):
         self.content = self.build()
         self.update()
 
+    def search_flet_prs(self):
+        import requests
+        url = 'https://api.github.com/search/issues?q=%22UserControl%22+repo:flet-dev/flet+is:pr'
+        response = requests.get(url)
+        return response.json()
+
     
     
 
