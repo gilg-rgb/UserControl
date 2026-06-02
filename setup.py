@@ -7,7 +7,7 @@ setup(
     author="Gilg",
     url="https://github.com/gilg-rgb/UserControl",
     keywords=["flet-dev/usercontrol", "flet-dev", "usercontrol", "flet"],
-    py_modules=["app"],
+    py_modules=["user_control"],
     install_requires=[
         "flet",
         "requests",
