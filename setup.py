@@ -5,7 +5,8 @@ setup(
     version="0.1.0",
     description="Flet UserControl Component Library",
     author="Gilg",
-    url="https://github.com/gilg-rgb/Flet-UserControl",
+    url="https://github.com/gilg-rgb/UserControl",
+    keywords=["flet-dev/usercontrol", "flet-dev", "usercontrol", "flet"],
     py_modules=["app"],
     install_requires=[
         "flet",
